@@ -1,0 +1,48 @@
+.login h1 a{
+    background: none;
+    margin: 0;
+    height: 0;
+}
+.login form{
+    margin-top: 0;
+    text-align: center;
+}
+body.login {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login #backtoblog a, .login #nav a, .login h1 a {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+body.login.wp-core-ui .button-primary{
+    background: #1EA900;
+    border-color: #1C8206;
+}
+body.login.wp-core-ui .button-primary:hover{
+    background: #1D8A05;
+    border-color: #082F00;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    text-align: center;
+}
+.login #backtoblog, .login #nav {
+    text-align: center;
+}
+#login:after{
+    content: "";
+    display: block;
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 201px;
+    height: 101px;
+    top: 0;
+    right: 19px;
+}
+
+.interim-login #login:after{
+    display: none;
+}

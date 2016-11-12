@@ -1,0 +1,44 @@
+.get-social{
+    list-style: none;
+
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.get-social > li{
+    display: inline-block;
+
+    float: left;
+    margin: 2px;
+}
+.get-social > li > a{
+    display: block;
+    width: 25px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+}
+#footer .get-social > li > a{
+    width: 50px;
+    height: 50px;
+}
+.get-social > li > a:hover{
+    top: -2px;
+
+}
+.top-bar .social-links .get-social > li > a{background-image: url(../images/header_social_icons_red.png);}
+.top-bar .social-links .get-social > li > a.facebook{background-position: 7px 2px;}
+.top-bar .social-links .get-social > li > a.pinterest{background-position: -28px 2px;}
+.top-bar .social-links .get-social > li > a.twitter{background-position: -62px 2px;}
+.top-bar .social-links .get-social > li > a.youtube{background-position: -97px 2px;}
+.top-bar .social-links .get-social > li > a.tumblr{background-position: -132px 2px;}
+.top-bar .social-links .get-social > li > a.instagram{background-position: -165px 2px;}
+
+#footer .social-links .get-social > li > a{background-image: url(../images/footer_social_icons_red.png);}
+#footer .social-links .get-social > li > a.facebook{background-position: 11px 2px;}
+#footer .social-links .get-social > li > a.pinterest{background-position: -56px 3px;}
+#footer .social-links .get-social > li > a.twitter{background-position: -125px 4px;}
+#footer .social-links .get-social > li > a.youtube{background-position: -195px 3px;}
+#footer .social-links .get-social > li > a.tumblr{background-position: -264px 3px;}
+#footer .social-links .get-social > li > a.instagram{background-position: -333px 4px;}

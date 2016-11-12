@@ -1,0 +1,253 @@
+/* desktop */
+
+
+/* Smartphones */
+
+@media (max-width: 767px) {
+    .page-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .page-content {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    .col-contact {
+    }
+
+    div#topslider ul .slide-box .label {
+        font-size: 12px;
+        padding: 9px 25px 5px 10px;
+        bottom: 4px;
+    }
+
+    img.toplogo {
+        margin: 10px auto;
+    }
+    div.wpcf7-validation-errors {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    form.wpcf7-form .fields-group .wpcf7-form-control.wpcf7-submit {
+        margin: 0px auto;
+        display: table;
+    }
+    .prezentacja div#slider_pager_prezentacja {max-width: 50%;}
+
+    ul#slider_prezentacja li img {
+        max-width: 90%;
+    }
+
+    ul#slider_prezentacja li {
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+    .popup .popup-body {
+        margin-top: 120px;
+        max-width: 90%;
+    }
+
+    .popup .popup-body > div > div {
+        display: block;
+        width: 100%!important;
+        clear: both;
+        float: none!important;
+        margin-bottom: 10px;
+        padding-right: 0!important;
+        padding-left: 0!important;
+        text-align: center;
+    }
+    .popup .popup-body > div > div p{
+        text-align: center!important;
+    }
+
+    ul#menu-generalne-menu > li {
+        float: none;
+        width: 100%;
+    }
+
+    ul#menu-generalne-menu {
+        margin-bottom: 25px;
+        display: none;
+    }
+
+    ul#menu-generalne-menu > li > ul.sub-menu {
+        position: relative;
+        overflow: visible;
+        opacity: 1;
+        margin-left: 11px;
+        left: 0;
+        top: 0;
+        margin-bottom: 1px;
+        display: table;
+        display: none;
+    }
+
+    ul#menu-generalne-menu > li > ul.sub-menu:before {
+        border-top: none;
+    }
+
+    .topbar {
+        position: relative;
+    }
+}
+
+
+/* ============================ iPad 3 & 4 Media Queries ============================ */
+/* ================================================================================== */
+
+/* iPad in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* ============================ iPad mini Media Queries ============================ */
+/* ================================================================================= */
+
+/* iPad mini in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* ============================ iPhone Media Queries ============================ */
+/* ============================================================================== */
+
+/* iPhone 6 in portrait & landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+}
+
+/* iPhone 6 in landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 in portrait */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 6 Plus Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 6 Plus in portrait & landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+}
+
+/* iPhone 6 Plus in landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 Plus in portrait */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 5 & 5S Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 5 & 5S in portrait & landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 & 5S Plus in landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 & 5S Plus in portrait */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
